@@ -1,0 +1,160 @@
+import React from "react";
+import "./App.css";
+
+function App() {
+
+  return(
+    <div className="main">
+      <div>
+        <Navbar/>
+        <Hero/>
+        <div>
+        <Card/>
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+function Navbar(){
+  return (
+      <div style={{
+        display :'flex',
+        justifyContent :'space-between',
+        padding : '10px 20px'
+        // backgroundColor :'Orange'
+      }}>
+        
+          <b>Vimal</b><b>About</b>
+          <button>BuyNow</button>
+      </div>
+  )
+}
+
+
+function Hero(){
+  return (
+      <div style={{ textAlign: "center", marginTop: 20 }}>
+          <img src="https://pluspng.com/img-png/download-narendra-modi-png-images-transparent-gallery-advertisement-910.png" alt="NarendraModi" />
+  </div>
+  )
+}
+
+function Card(){
+  return (
+    <div className="card-wrapper">
+      <div className="card-container">
+        <img
+          src="https://vimalpanmasala.co/wp-content/uploads/2025/01/vimal-gutkha.png"
+          alt="VimalPanMasala"
+          className="card-image"
+        />
+        <div className="card-content">
+          <div className="card-title">
+            <span className="highlight">Vimal </span>
+            <b>Elaichi</b>
+          </div>
+          <div className="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div className="card-buttons">
+            <button className="btn-buy">Buy</button>
+            <button className="btn-cart">Cart</button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="card-container">
+        <img
+          src="https://vimalpanmasala.co/wp-content/uploads/2025/01/vimal-gutkha.png"
+          alt="VimalPanMasala"
+          className="card-image"
+        />
+        <div className="card-content">
+          <div className="card-title">
+            <span className="highlight">Vimal </span>
+            <b>Elaichi</b>
+          </div>
+          <div className="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div className="card-buttons">
+            <button className="btn-buy">Buy</button>
+            <button className="btn-cart">Cart</button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="card-container">
+        <img
+          src="https://vimalpanmasala.co/wp-content/uploads/2025/01/vimal-gutkha.png"
+          alt="VimalPanMasala"
+          className="card-image"
+        />
+        <div className="card-content">
+          <div className="card-title">
+            <span className="highlight">Vimal </span>
+            <b>Elaichi</b>
+          </div>
+          <div className="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div className="card-buttons">
+            <button className="btn-buy">Buy</button>
+            <button className="btn-cart">Cart</button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="card-container">
+        <img
+          src="https://vimalpanmasala.co/wp-content/uploads/2025/01/vimal-gutkha.png"
+          alt="VimalPanMasala"
+          className="card-image"
+        />
+        <div className="card-content">
+          <div className="card-title">
+            <span className="highlight">Vimal </span>
+            <b>Elaichi</b>
+          </div>
+          <div className="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div className="card-buttons">
+            <button className="btn-buy">Buy</button>
+            <button className="btn-cart">Cart</button>
+          </div>
+        </div>
+      </div>
+      <br />
+
+
+
+      <div className="card-container"  >
+        <img
+          src="https://vimalpanmasala.co/wp-content/uploads/2025/01/vimal-gutkha.png"
+          alt="VimalPanMasala"
+          className="card-image"
+        />
+        <div className="card-content" >
+          <div  className="card-title">
+            <span  className="highlight">Vimal </span>
+            <b>Elaichi</b>
+          </div>
+          <div className="card-description" >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div  className="card-buttons">
+            <button className="btn-buy" >Buy</button>
+            <button className="btn-cart">Cart</button>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  );
+}
+
+export default App;
